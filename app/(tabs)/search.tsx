@@ -1,15 +1,15 @@
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function HomeScreen() {
+export default function SearchScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Hello</Text>
+    <View>
+      <Text>Search</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,

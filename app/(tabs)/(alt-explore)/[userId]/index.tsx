@@ -1,9 +1,9 @@
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function HomeScreen() {
+export default function AltExploreScreen() {
   return (
     <View style={styles.container}>
-      <Text>Hello</Text>
+      <Text>Alt Explore Screen</Text>
     </View>
   );
 }
